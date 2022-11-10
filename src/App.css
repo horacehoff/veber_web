@@ -9,6 +9,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height: 100%;
 }
 
 .hamburger {
@@ -105,7 +106,7 @@
 .down-arrow {
   position: absolute;
   left: calc(50% - 14px);
-  top: calc(100% - 10px);
+  top: 85vh;
   width: 0;
   height: 30px;
   border: 2px solid;
