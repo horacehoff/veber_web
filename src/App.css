@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hamburger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(203, 213, 225);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 130px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 40px;
+  margin-right: 35px;
+  transition: 0.2s;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.459);
+  font-size: smaller;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 10;
+}
+.hamburger:hover {
+  background-color: white;
+}
+
+.account-icon {
+  position: absolute; 
+  left: 20%; 
+  top: 50%; 
+  transform: translate(-20%, -50%);
+  cursor: pointer;
+}
+
+.hamburger-icon {
+  cursor: pointer;
+  position: absolute; 
+  left: 80%; 
+  top: 50%; 
+  transform: translate(-80%, -50%)
+}
+
+.title-money {
+  position:absolute;
+  font-size: 5vw;
+  left: 0vw;
+  top: 10vw;
+  color: white;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.title-money-bis {
+  position:absolute;
+  font-size: 5vw;
+  right: -2vw;
+  top: 3vw;
+  transform: rotate(-180deg);
+  color: white;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.catchphrase {
+  font-family: 'Inter', sans-serif;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .catchphrase {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .catchphrase {
+    font-size: 4vw;
+  }
+}
+
+.down-arrow {
+  position: absolute;
+  left: calc(50% - 14px);
+  top: calc(90vh - 10px);
+  width: 0;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 2px;
+  animation: jumpInfinite 2s infinite;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
