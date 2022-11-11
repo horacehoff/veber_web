@@ -103,6 +103,7 @@
   border: 2px solid;
   border-radius: 2px;
   animation: jumpInfinite 2s infinite;
+  color: white;
 }
 
 .down-arrow:after {
@@ -116,6 +117,7 @@
   border-right: 4px solid;
   border-radius: 4px;
   transform: rotateZ(45deg);
+  color: white;
 }
 
 @keyframes jumpInfinite {
