@@ -53,7 +53,7 @@ function App() {
     </div>
     <div style={{position: "relative"}}>
       <div className="title-money">💸</div>
-      <h1 style={{fontFamily: "Montserrat", fontSize: "15vw"}}>VEBER</h1>
+      <h1 /* style={{fontFamily: "Montserrat", fontSize: "15vw"}} */ className="vebertitle">VEBER</h1>
       <div className="title-money-bis">💸</div>
     </div>
     <h3 className="catchphrase">Your way into the economy.</h3>

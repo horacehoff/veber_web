@@ -60,6 +60,8 @@
   transform: translate(-80%, -50%)
 }
 
+
+
 .title-money {
   position:absolute;
   font-size: 5vw;
@@ -120,6 +122,11 @@
   color: white;
 }
 
+.vebertitle {
+  font-size: 15vw;
+  font-family: "Montserrat";
+}
+
 @keyframes jumpInfinite {
   0% {
     margin-top: 0;
@@ -144,5 +151,29 @@
 @media screen and (max-width: 1000px) {
   .catchphrase {
     font-size: 3vw;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  #root {
+    background-color: rgb(255 237 213);
+  }
+  .hamburger {
+    background-color: white;
+  }
+  .hamburger:hover {
+    background-color:rgb(255, 250, 233);
+  }
+  .catchphrase {
+    color: black;
+  }
+  .down-arrow {
+    color: black;
+  }
+  .down-arrow:after {
+    color: black;
+  }
+  .vebertitle {
+    color: black;  
   }
 }
