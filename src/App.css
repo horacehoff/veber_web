@@ -94,21 +94,6 @@
   font-size: 2vw;
 }
 
-@media screen and (max-width: 1000px) {
-  .catchphrase {
-    font-size: 3vw;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .catchphrase {
-    font-size: 4vw;
-  }
-  .down-arrow {
-    top: 70vh;
-  }
-}
-
 .down-arrow {
   position: absolute;
   left: calc(50% - 14px);
@@ -142,5 +127,20 @@
   }
   100% {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .down-arrow {
+    top: 70vh;
+  }
+  .catchphrase {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .catchphrase {
+    font-size: 3vw;
   }
 }
