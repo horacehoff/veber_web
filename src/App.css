@@ -113,3 +113,8 @@
     font-size: 2.4vw;
   }
 }
+@media screen and (max-width: 450px) {
+  .catchphrase {
+    font-size: 3vw;
+  }
+}
