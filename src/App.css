@@ -1,18 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
 
 * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 #root {
-  /*max-width: 1280px;*/
-  /*margin: 0 auto;*/
-  /*padding: 2rem;*/
   text-align: center;
 }
-
-/*.App {*/
-/*  width: 100%;*/
-/*}*/
 
 
 .title-money {
@@ -71,6 +65,7 @@
   font-size: 15vw;
   font-family: "Montserrat", sans-serif;
   z-index: 1;
+  font-weight: 900;
 }
 
 @keyframes jumpInfinite {
@@ -97,6 +92,79 @@
   }
 }
 
+
+
+
+.veber-links {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: calc(50% + 15vw);
+  width: 100vw;
+}
+
+.veber-download {
+    width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0;
+  outline: 0;
+  background-color: white;
+  color: black;
+  font-family: "Reddit Mono", monospace;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  display: inline-block
+}
+.veber-download:hover {
+  letter-spacing: 0.05em;
+  background-color: black;
+  color: white;
+}
+.veber-github {
+  width: 175px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0;
+  outline: 0;
+  background-color: black;
+  color: white;
+  font-family: "Reddit Mono", monospace;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  display: inline-block;
+  position: relative;
+  margin-left: 15px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  line-height: 50px;
+  font-size: 13.33px;
+}
+.veber-github:hover {
+  background-color: white;
+  color: black;
+}
+.veber-github svg {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .veber-links {
+    top: calc(50% + 17vw);
+  }
+}
+
 @media screen and (max-width: 700px) {
   .vebertitle {
     font-size: 23vw;
@@ -112,9 +180,20 @@
     top: calc(50% + 10vw);
     font-size: 2.4vw;
   }
+  .veber-links {
+    top: calc(50% + 21vw);
+  }
+}
+@media screen and (max-width: 600px) {
+  .veber-links {
+    top: calc(50% + 24vw);
+  }
 }
 @media screen and (max-width: 450px) {
   .catchphrase {
     font-size: 3vw;
+  }
+  .veber-links {
+    top: calc(50% + 30vw);
   }
 }
