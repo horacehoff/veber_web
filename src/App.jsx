@@ -10,7 +10,7 @@ function App() {
             </div>
             <h2 className="catchphrase">Rust server that allows you to create your own economy</h2>
             <div className="veber-links">
-                <a className="veber-download">
+                <a className="veber-download" href="https://github.com/just-a-mango/veber/actions">
                     DOWNLOAD
                 </a>
                 <a className="veber-github" href="https://github.com/just-a-mango/veber" target="_blank">
