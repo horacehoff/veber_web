@@ -10,10 +10,10 @@ function App() {
             </div>
             <h2 className="catchphrase">Rust server that allows you to create your own economy</h2>
             <div className="veber-links">
-                <a className="veber-download" href="https://github.com/just-a-mango/veber/actions">
+                <a className="veber-download" href="https://github.com/horacehoff/veber/actions">
                     DOWNLOAD
                 </a>
-                <a className="veber-github" href="https://github.com/just-a-mango/veber" target="_blank">
+                <a className="veber-github" href="https://github.com/horacehoff/veber" target="_blank">
                     <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
                         <g clipPath="url(#clip0_489_191354)">
                             <path
